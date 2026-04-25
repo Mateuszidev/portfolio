@@ -22,16 +22,16 @@ export type ContactLink = {
 
 export const portfolio = {
   seo: {
-    title: "Mateus Rodrigues | Portfolio",
+    title: "Mateus Rodrigues Felix | Portfolio",
     description:
-      "Portfolio em Next.js com projetos, experiência, habilidades e contatos.",
+      "Portfolio em Next.js com projetos, experiencia, habilidades e contatos.",
   },
   hero: {
-    availability: "Disponível para projetos freelance e oportunidades full-stack.",
-    name: "Mateus Rodrigues",
-    role: "Desenvolvedor Full-stack em formação, focado em interfaces rápidas e funcionais.",
+    availability: "Disponivel para projetos freelance e oportunidades full-stack.",
+    name: "Mateus Rodrigues Félix",
+    role: "Desenvolvedor full-stack em formacao, focado em interfaces rápidas, elegantes e funcionais.",
     intro:
-      "Crio experiências web modernas com atenção à performance, clareza visual e organização de código para que o produto seja fácil de manter.",
+      "Crio experiências web modernas com atenção à performance, clareza visual e organização de código para entregar produtos confiáveis, agradaveis de usar e fáceis de evoluír.",
     primaryCta: {
       label: "Ver projetos",
       href: "#projetos",
@@ -43,16 +43,16 @@ export const portfolio = {
     stats: [
       { label: "Projetos em destaque", value: "03" },
       { label: "Stack principal", value: "Next.js + TS" },
-      { label: "Prioridade", value: "Velocidade e UX" },
+      { label: "Prioridade", value: "UX, performance e clareza" },
     ],
   },
   about: {
     title: "Sobre mim",
-    text: "Sou um desenvolvedor que gosta de transformar ideias em interfaces objetivas, rápidas e agradáveis de usar. Prefiro soluções simples, com boa hierarquia visual e foco em resultado real para quem navega.",
+    text: "Sou um desenvolvedor que gosta de transformar ideias em interfaces objetivas, rápidas e agradaveis de usar. Prefiro soluções simples, com boa hierárquia visual e foco em resultado real para quem navega.",
     bullets: [
-      "Estruturo páginas para serem fáceis de editar e evoluir.",
-      "Tenho atenção especial a responsividade, sem exagerar em dependências.",
-      "Gosto de trabalhar com componentes claros e conteúdo bem organizado.",
+      "Estruturo páginas para serem fáceis de editar, manter e evoluír.",
+      "Tenho atenção especial à responsividade, acessibilidade e legibilidade.",
+      "Gosto de trabalhar com componentes claros e conteudo bem organizado.",
     ],
   },
   skills: [
@@ -60,8 +60,8 @@ export const portfolio = {
     "React",
     "TypeScript",
     "JavaScript",
-    "Java básico",
-    "Springboot",
+    "Java basico",
+    "Spring Boot",
     "HTML",
     "CSS",
     "UI Design",
@@ -75,65 +75,69 @@ export const portfolio = {
   ],
   experience: [
     {
-      company: "freelance",
-      role: "Desenvolvedor Full-stack",
+      company: "Freelance",
+      role: "Desenvolvedor Fullstack",
       period: "2025 - hoje",
       summary:
-        "Neste projeto criei uma página vitrine focada em automação, ao navegar pelo site você conta com uma experiência rápida e acessível. Nele integrei um carrinho com finalização via wpp",
+        "Desenvolvi uma pagina vitrine focada em automacao de pedidos, com navegacao rapida, experiencia acessivel e jornada de compra simples, incluindo integracao com carrinho e finalizacao via WhatsApp.",
       highlights: [
-        "Estruturação de interfaces reaproveitáveis.",
-        "Melhoria de fluxo e experiência em páginas principais.",
-        "Organização do código para manutenção mais simples.",
+        "Estruturacao de interfaces reaproveitaveis.",
+        "Melhoria de fluxo e experiencia nas paginas principais.",
+        "Organizacao do codigo para manutencao mais simples.",
+        "Implementacao de logica de negocio.",
       ],
     },
     {
-      company: "freelance",
+      company: "Freelance",
       role: "Desenvolvedor Full-stack",
-      period: "2025 - HOJE",
+      period: "2025 - hoje",
       summary:
-        "Neste projeto tive como objetivo automatizar pedidos de mercados. Nele adicionei finalização via WhatsApp, banco de dados e criei um dashboard para facilitação ao cadastrar/alterar produtos.",
+        "Neste projeto o objetivo foi automatizar pedidos de mercado. Implementei finalizacao via WhatsApp, integracao com banco de dados e uma dashboard para facilitar cadastro, edicao e controle de produtos.",
       highlights: [
-        "Levantamento da necessidade e prototipação.",
-        "Implementação com foco em performance e automação.",
-        "Entrega com layout responsivo e conteúdo escalável.",
+        "Levantamento de necessidade e prototipacao inicial.",
+        "Implementacao com foco em performance e automacao.",
+        "Entrega com layout responsivo e conteudo escalavel.",
       ],
     },
   ] satisfies Experience[],
   projects: [
     {
-      title: "Marketplace moderno",
+      title: "Sistema para automacao de pedidos",
       description:
-        "Interface para vitrine de produtos com foco em navegação fluida, clareza visual e escalabilidade de componentes.",
+        "Interface para vitrine de produtos com foco em navegacao fluida, clareza visual e escalabilidade de componentes.",
       period: "Projeto real",
-      stack: ["Next.js", "TypeScript", "CSS Modules"],
-      metrics: ["Layout responsivo", "Componentes reutilizáveis", "UX orientada a conversão"],
-      href: "https://github.com/seuusuario/marketplace",
+      stack: ["Next.js", "PostgreSQL", "CSS Modules"],
+      metrics: ["Layout responsivo", "Componentes reutilizaveis", "UX orientada a conversao"],
+      href: "https://marketsystem-flax.vercel.app/",
     },
     {
-      title: "Landing page de serviço",
+      title: "Landing page de servico",
       description:
-        "Página pensada para apresentar proposta de valor com seções claras, CTA forte e carregamento rápido.",
-      period: "Case de portfólio",
+        "Pagina pensada para apresentar proposta de valor com secoes claras, CTA forte e carregamento rapido.",
+      period: "Projeto real",
       stack: ["Next.js", "SEO", "Design System"],
-      metrics: ["Alta legibilidade", "Boa hierarquia", "Fácil edição"],
-      href: "https://github.com/seuusuario/landing-page",
+      metrics: ["Alta legibilidade", "Boa hierarquia", "Facil edicao"],
+      href: "https://smoke25hrs.vercel.app/",
     },
     {
-      title: "Dashboard enxuto",
+      title: "Portfolio enxuto e objetivo",
       description:
-        "Painel com apresentação de dados e foco em leitura rápida, contraste e organização de blocos informativos.",
-      period: "Estudo prático",
-      stack: ["React", "TypeScript", "UI"],
-      metrics: ["Interface clara", "Fluxo funcional", "Base pronta para expansão"],
-      href: "https://github.com/seuusuario/dashboard",
+        "Pagina autoral criada para apresentar repertorio tecnico, experiencia e projetos com uma leitura direta e profissional.",
+      period: "Projeto real",
+      stack: ["Next.js", "CSS", "UX", "UI"],
+      metrics: ["Interface clara", "Fluxo funcional", "Base pronta para expansao"],
+      href: "https://github.com/Mateuszidev",
     },
   ] satisfies Project[],
   contact: {
     title: "Vamos conversar",
-    text: "Se você quer alguém para construir interfaces rápidas, organizadas e com boa presença visual, me chama pelos links abaixo.",
+    text: "Se voce procura alguem para construir interfaces rapidas, organizadas e com boa presenca visual, me chama pelos links abaixo.",
     links: [
-      { label: "Email", href: "mateusvdg25@gmail.com" },
-      { label: "LinkedIn", href: "https://www.linkedin.com/in/mateus-rodrigues-f%C3%A9lix-225889335/" },
+      { label: "Email", href: "mailto:mateusvdg25@gmail.com" },
+      {
+        label: "LinkedIn",
+        href: "https://www.linkedin.com/in/mateus-rodrigues-f%C3%A9lix-225889335/",
+      },
       { label: "GitHub", href: "https://github.com/Mateuszidev" },
       { label: "WhatsApp", href: "https://wa.me/5521979668909" },
     ] satisfies ContactLink[],

@@ -126,7 +126,7 @@ export const portfolio = {
       period: "Projeto real",
       stack: ["Next.js", "CSS", "UX", "UI"],
       metrics: ["Interface clara", "Fluxo funcional", "Base pronta para expansao"],
-      href: "https://github.com/Mateuszidev",
+      href: "https://github.com/Mateuszidev/portfolio",
     },
   ] satisfies Project[],
   contact: {

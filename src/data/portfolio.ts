@@ -108,7 +108,7 @@ export const portfolio = {
       period: "Projeto real",
       stack: ["Next.js", "PostgreSQL", "CSS Modules"],
       metrics: ["Layout responsivo", "Componentes reutilizaveis", "UX orientada a conversao"],
-      href: "https://marketsystem-flax.vercel.app/",
+      href: "https://podexpress.vercel.app/",
     },
     {
       title: "Landing page de servico",

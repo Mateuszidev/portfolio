@@ -199,7 +199,7 @@ export default function Home() {
         <SectionHeading
           eyebrow="Projetos"
           title="Cases para mostrar resultado"
-          description="Cada card pode apontar para GitHub, deploy ao vivo, Behance ou qualquer link que faça sentido para você."
+          description="Cada card pode aponta para o link do site"
         />
         <div className="project-grid">
           {projects.map((project) => (
